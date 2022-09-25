@@ -71,6 +71,10 @@ Anyone can view the verification results for a Commitment using the Truestamp ve
 
 Please note, this is a test ID, and it will no longer work once Stellar does its quarterly test environment reset.
 
+https://user-images.githubusercontent.com/117/192169657-c114d51c-64a5-44c8-bbed-4cf949b87d26.mov
+
+You can try it out yourself at this verification URL:
+
 [https://staging-verify.truestamp.com/truestamp-2SF5MvJNqaNJZKQoPSjeeD7RjWDyeTdAUQwSspscj6uyYs9owGZuaXJhUPBtC](https://staging-verify.truestamp.com/truestamp-2SF5MvJNqaNJZKQoPSjeeD7RjWDyeTdAUQwSspscj6uyYs9owGZuaXJhUPBtC)
 
 #### Using the CLI
