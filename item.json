@@ -1,0 +1,45 @@
+{
+  "itemData": [
+    {
+      "hash": "284b8b69bfd6cb6d673e399fa28e83a1383ef591e7c2d484be9368f1d3d0fc0a",
+      "hashType": "sha-256",
+      "timestamp": "2022-09-25T21:09:17.148Z",
+      "description": "science.md",
+      "people": [
+        {
+          "givenName": "Glenn",
+          "surname": "Rempe",
+          "organizationName": "Truestamp Inc.",
+          "roles": ["owner"],
+          "address": {
+            "town": "Ashburn",
+            "region": "VA",
+            "postcode": "20148",
+            "countryCode": "US"
+          }
+        }
+      ],
+      "location": {
+        "coordinate": {
+          "latitude": "39.0299551",
+          "longitude": "-77.5122281"
+        }
+      },
+      "extra": {
+        "learnMore": [
+          "https://github.com/truestamp/demo",
+          "https://www.truestamp.com"
+        ]
+      }
+    },
+    {
+      "hash": "9ebdddcbd756efac1d9a70d8f3ea2239e7b538a55ce847b92fc3eb245a1183f2",
+      "hashType": "sha-256",
+      "timestamp": "2022-09-25T21:09:17.148Z",
+      "description": "sdf-logo.png",
+      "extra": {
+        "learnMore": ["https://stellar.org", "https://stellar.org/press"]
+      }
+    }
+  ]
+}
