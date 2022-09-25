@@ -16,6 +16,10 @@ Watch our [intro video](https://scf11.truestamp.com/video) or visit our [website
 
 ## The Demo
 
+This repository contains the same [content](content) used to create the demo material below. You should feel free to clone this repo if you want to try out the verification URL, and the drag-and-drop file verification for yourself.
+
+https://staging-verify.truestamp.com/truestamp-2SF5MvJNqaNJZKQoPSjeeD7RjWDyeTdAUQwSspscj6uyYs9owGZuaXJhUPBtC
+
 ### Get the hash of the files you want to submit
 
 #### Using `sha256sum`
