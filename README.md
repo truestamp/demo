@@ -48,6 +48,8 @@ Most operating systems and programming languages include hashing tools that are 
 
 There are several different ways to submit an Item to Truestamp as a customer. The easiest way is to drag-and-drop a file or folder in our web UI, and click the create item button.
 
+https://user-images.githubusercontent.com/117/192169019-02905e65-f4ae-46f7-aa61-9ec7ad7a08cd.mov
+
 Alternatively, you can use the CLI to submit an Item. The simplest Item represents only a single hash. By submitting a JSON file you can send both structured and unstructured metadata. See the sample [item.json](item.json) file in this repo. You'll see it contains the hashes of our test files.
 
 ```sh
