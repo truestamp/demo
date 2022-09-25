@@ -63,7 +63,15 @@ That command returned an ID that we can use, or share, to retrieve or verify a C
 truestamp-2SF5MvJNqaNJZKQoPSjeeD7RjWDyeTdAUQwSspscj6uyYs9owGZuaXJhUPBtC
 ```
 
+### Save the Commitment
+
+Optionally, you can use the ID returned to download your Commitment to store alongside a pristine copy of your hashed files.
+
+Here is the [commitment.json](commitment.json) file for this Item. The commitment is what provides the cryptographic proof that your data is included in the Merkle root stored in a blockchain transaction.
+
 ### Verify the Item We Submitted
+
+No matter which verification tool you use, the process is the same. It will cryptographically verify that the entirety of the Item data you submitted, including hashes and other metadata, is cryptographically bound via Merkle trees to the transactions listed in the Commitment. This verification irrefutably proves that you content is bound to that transaction. The timestamp, as recorded in the ledger, proves that your Item was submitted prior to that time. At no time is any data in the Commitment trusted without calculating its hashes, and reaching out to the public API's of transaction ledgers for confirmation of Merkle roots and timestamp.
 
 #### Using the Web UI
 

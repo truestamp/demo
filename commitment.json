@@ -1,0 +1,93 @@
+{
+  "commitmentData": {
+    "id": "truestamp-2SF5MvPuRT5x7KAHpPo9bgtwC9QHh3JxHoSkELBJFGi469QdBXuFfJN5opyGW",
+    "itemData": [
+      {
+        "hash": "284b8b69bfd6cb6d673e399fa28e83a1383ef591e7c2d484be9368f1d3d0fc0a",
+        "hashType": "sha-256",
+        "description": "/content/science.md [1854 bytes]",
+        "timestamp": "2022-09-25T21:05:11.266Z"
+      },
+      {
+        "hash": "9ebdddcbd756efac1d9a70d8f3ea2239e7b538a55ce847b92fc3eb245a1183f2",
+        "hashType": "sha-256",
+        "description": "/content/sdf-logo.png [image/png, 241416 bytes]",
+        "timestamp": "2020-01-22T22:19:40.000Z"
+      }
+    ],
+    "itemSignals": {
+      "cf": {
+        "asn": 14618,
+        "colo": "IAD",
+        "country": "US",
+        "city": "Ashburn",
+        "continent": "NA",
+        "latitude": "39.04690",
+        "longitude": "-77.49030",
+        "postalCode": "20149",
+        "metroCode": "511",
+        "region": "Virginia",
+        "regionCode": "VA",
+        "timezone": "America/New_York"
+      },
+      "observableEntropy": "05d579788631ab6b49ed4000b400b12d1b26da531c172c70934484d708ae0354",
+      "submittedAt": "2022-09-25T21:49:50.397Z"
+    },
+    "proofs": [
+      {
+        "inputHash": "20290bc95fe4237bfe4ce2a2d434eeb969d073822049b2c0c4e1ff33e252df74",
+        "inclusionProof": {
+          "v": 1,
+          "h": "sha256",
+          "p": [
+            [
+              0,
+              "8002f022cd5734f81aa363f350a7cc0ac3b0a03248e6304699a4213831bb9617"
+            ]
+          ]
+        },
+        "merkleRoot": "c0f2bb5489e0b34c04d254050d2bc8db0ea848150e0e467f04be243ea2702063"
+      },
+      {
+        "inputHash": "c0f2bb5489e0b34c04d254050d2bc8db0ea848150e0e467f04be243ea2702063",
+        "inclusionProof": {
+          "v": 1,
+          "h": "sha256",
+          "p": [
+            [
+              0,
+              "5e8fae701f5446dc2c0100a8e115fb2fa370f0dcb701170c864bd2a2006f9cf8"
+            ],
+            [
+              1,
+              "d723b9182b7712095e9fca35be4430a8b676255cb239d5834ac2f7577098d967"
+            ]
+          ]
+        },
+        "merkleRoot": "efb45ddf5d0fc62915dcab40c43829a561cbc94fcfa525e2cece85354f3591b7"
+      }
+    ],
+    "transactions": {
+      "c0f2bb5489e0b34c04d254050d2bc8db0ea848150e0e467f04be243ea2702063": [
+        {
+          "inputHash": "c0f2bb5489e0b34c04d254050d2bc8db0ea848150e0e467f04be243ea2702063",
+          "intent": "stellar",
+          "hash": "a8e32be1b5ca1fc566295995d02f5aef6a8423f68b24b69055894595f5230927",
+          "ledger": 189306
+        }
+      ]
+    }
+  },
+  "commitmentDataSignatures": [
+    {
+      "publicKey": "2/N8KtnOq46WOvQay/cun/3vin7dYU0jtwliVf6g83s=",
+      "signature": "ku9hk1KQUfczyZBW8INr1U2rZ4BJRHPHKVwnv1s9eFHKGDqfBnPsThWmsF5XnJFZVUpjPaRjcEP6fqm74vMhAw==",
+      "signatureType": "ed25519",
+      "signer": {
+        "organizationName": "Truestamp Inc.",
+        "email": "support@truestamp.com",
+        "uri": "https://www.truestamp.com"
+      }
+    }
+  ]
+}
